@@ -1,0 +1,245 @@
+     /* HEADINGS
+    -------------------------------------------------- */
+body{
+    background-color: #000000;
+}
+    h1 {
+	    font-size: 60px;
+	    text-transform: uppercase;
+	    text-align: center;
+    }
+    
+    h2 {
+	    font-size:50px;
+	    text-align: center;
+    }
+    
+    h3 {
+	    font-size: 40px;
+	    text-align: center;
+	}
+	
+	h4 {
+	    font-size: 30px;
+	}
+	
+	h5 {
+		font-size: 20px;
+	}
+	
+	h6 {
+		font-size: 12px;
+	}
+	
+	.subhead {
+		color: #fff;
+		text-align: center;
+		padding-bottom: 55px;
+	}
+    
+    iframe {
+	    padding-bottom: -10px; 
+	    width: 100%;
+	    height: 500px;
+    }
+    
+    /* ABOUT J DILLA
+    -------------------------------------------------- */
+
+    /* animation keyframes */
+
+    @-moz-keyframes html {0%  { width:0px;} 100%{ width:95%;}  }
+    @-moz-keyframes css        { 0%  { width:0px;} 100%{ width:90%;}  }
+    @-moz-keyframes java      { 0%  { width:0px;} 100%{ width:55%;}  }
+    @-moz-keyframes php   { 0%  { width:0px;} 100%{ width:65%;}  }
+    @-moz-keyframes psd   { 0%  { width:0px;} 100%{ width:85%;}  }
+
+    @-webkit-keyframes html       { 0%  { width:0px;} 100%{ width:95%;}  }
+    @-webkit-keyframes css        { 0%  { width:0px;} 100%{ width:90%;}  }
+    @-webkit-keyframes java      { 0%  { width:0px;} 100%{ width:55%;}  }
+    @-webkit-keyframes php   { 0%  { width:0px;} 100% { width:65%;}  }
+    @-webkit-keyframes psd   { 0%  { width:0px;} 100% { width:85%;}  }
+       
+    /* Icon rotation effect  */
+    
+    .rotate {
+	    -webkit-transition-duration: 0.8s;
+        -moz-transition-duration: 0.8s;
+        -o-transition-duration: 0.8s;
+        transition-duration: 0.8s;
+        border-radius: 50%;
+    }
+    
+    .rotate:hover {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        border-radius: 50%;   
+    }
+    
+  	 /* Read more Button  */
+    
+    .service-btn {
+	    margin-top: 40px;
+    }
+    
+    .btn-hire {
+        text-transform: uppercase;
+        font-size: 19px;
+	    padding: 10px 20px;
+    }
+
+    /* RAPPERS
+    -------------------------------------------------- */
+    
+    .rappers {
+	    margin: 0px 10px;
+	    padding: 30px 10px;
+	    -webkit-transition:  ease-out 0.6s;
+        -moz-transition: ease-out 0.6s;
+        -o-transition: ease-out 0.6s;
+        transition: ease-out 0.6s;
+    }
+
+    .job {
+        font-size: 12px;
+    }
+    
+    .rappers p {
+	    padding: 10px;
+    }
+    
+    .rappers:hover {
+	    -webkit-transition: all 0.6s linear;
+        -moz-transition: all 0.6s linear;
+        -o-transition: all 0.6s linear;
+        -ms-transition: all 0.6s linear;
+        transition: all 0.6s linear;
+    }
+    
+    .rappers:hover p {
+	    padding: 10px;
+    }  
+    
+   /* Rappers Images  */
+    
+    .member1 {
+        background: url('../img/rappers/vinyl.png') center center no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        position: relative;
+        display: inline-block;
+        width: 140px;
+        height: 140px;
+        padding-top: 25px;
+        border-radius: 50%;
+	    -webkit-border-radius: 50%;
+	    -moz-border-radius: 50%;
+    }
+    
+    .member2 {
+        background: url('../img/rappers/vinyl.png') center center no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        position: relative;
+        display: inline-block;
+        width: 140px;
+        height: 140px;
+        padding-top: 25px;
+        border-radius: 50%;
+	    -webkit-border-radius: 50%;
+	    -moz-border-radius: 50%;
+    }
+    
+    .member3 {
+        background: url('../img/rappers/vinyl.png') center center no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        position: relative;
+        display: inline-block;
+        width: 140px;
+        height: 140px;
+        padding-top: 25px;
+        border-radius: 50%;
+	    -webkit-border-radius: 50%;
+	    -moz-border-radius: 50%;
+    }
+    
+    
+    /* Rappers Member Hover Images  */
+    
+    .rappers-member1:hover > div {
+        background: url('../img/rappers/backside/1.jpg') center center no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	    -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        border-radius: 50%;
+	    -webkit-border-radius: 50%;
+	    -moz-border-radius: 50%;
+    }
+    
+    .rappers-member2:hover > div {
+        background: url('../img/rappers/backside/2.jpg') center center no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	    -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        border-radius: 50%;
+	    -webkit-border-radius: 50%;
+	    -moz-border-radius: 50%;
+    }
+    
+    .rappers-member3:hover > div {
+        background: url('../img/rappers/backside/3.jpg') center center no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	    -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        border-radius: 50%;
+	    -webkit-border-radius: 50%;
+	    -moz-border-radius: 50%;
+    }
+     	
+    /* HEADING BOARDERS */
+    .head-border-white {
+	    width: 35%;
+	    height: 0px;
+    }
+    
+    .head-border-grey {
+	    width: 35%;
+	    height: 1px;
+    }
+
+    /* IMAGE STYLES  */
+    /* rotate effect  */
+    #rotate {
+	    -webkit-transition-duration: 0.8s;
+        -moz-transition-duration: 0.8s;
+        -o-transition-duration: 0.8s;
+        transition-duration: 0.8s;
+        border-radius: 50%;
+    }
+    
+    #rotate:hover {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        border-radius: 50%;
+    }

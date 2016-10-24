@@ -1,0 +1,83 @@
+/* About J Dilla
+-------------- */
+
+    #about {
+	    background: #020202;
+	    padding: 50px 0px;
+	    display: block;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+	    z-index: 900;
+        
+    }
+    
+    #about h1 {
+	    color: #fefefe;  
+    }
+    
+    #about p {
+	    color: #fefefe;
+    }
+    
+/* Rappers
+-------------- */
+    
+    #rappers {
+	    background: #e39d21;
+	    padding: 50px 0px ;
+	    display: block;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+	    z-index: 900;
+	    text-align: center;
+    }
+    
+    .rappers:hover {
+	    background-color: #020202;
+	    color: #a1a0a6;
+    }
+    
+    .rappers h5 {
+        color: #fefefe;
+    }
+
+    .job {
+        color: #443e44 !important;
+        border-bottom: 1px dashed #9e968f;
+    }
+    
+    .rappers p {
+	    color: #fefefe;
+    }
+    
+    .rappers:hover p {
+	    padding: 10px;
+	    color: #a1a0a6;
+    }
+    
+    .rappers a {
+	    color: #bababa;
+    }
+    
+    .rappers:hover a {
+	    color: #fff;
+    }
+    
+    .member1, .member2, .member3 {
+        color: #e67e22;
+    }
+    
+    .rappers-member1:hover > div {
+        color: #fff;
+        border: 5px solid #e67e22;
+    }
+    .rappers-member2:hover > div {
+        color: #fff;
+        border: 5px solid #e67e22;
+    }
+    .rappers-member3:hover > div {
+        color: #fff;
+        border: 5px solid #e67e22;
+    }
